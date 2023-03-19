@@ -1,0 +1,290 @@
+/* color von logo web und font von portfolio btn #4D5AE5 */
+/* color von studio und andere title und background ins web-site #2E2F42 */
+/* color von tel ads und andere text #434455 */
+/* color von footer #E7E9FC */
+/* background von btn ins Portfolio #F4F4FD #404BBF 
+color von font ins portfolio mit ":active" #FFFFFF*/
+
+
+:root {
+     --color-font-logo: #4D5AE5;
+     --color-tit-back: #2E2F42;
+     --color-ads-txt: #434455;
+     --color-footer-txt: #E7E9FC;
+     --color-bck-btn-act: #404BBF;
+     --color-bck-btn: #F4F4FD;
+     --color-fnt-btn-act: #FFFFFF;
+     --foot-family: 'Raleway', sans-serif;
+     --font-famyli: 'Roboto', sans-serif;
+}
+
+
+
+
+body {
+     font-family: 'Raleway', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     color: var(--color-ads-txt);
+     color: #434455;
+     background-color: var(--color-fnt-btn-act);
+}
+
+.link {
+     text-decoration: none;
+}
+
+.list {
+     list-style: none;
+     text-decoration: none;
+}
+
+
+/* Header Style */
+
+.header-abov {}
+
+.header-navigation li>a {
+     color: var(--color-tit-back);
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     text-decoration: none;
+}
+
+.header-navigation li>a:hover,
+.header-navigation li>a:focus {
+     color: var(--color-bck-btn-act);
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     text-decoration: none;
+}
+
+.header-navigation .header-logo {
+     font-family: 'Raleway', sans-serif;
+     font-style: normal;
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: var(--color-font-logo);
+}
+
+.header-logo-std {
+     color: var(--color-tit-back);
+}
+
+
+.header-container {}
+
+.header-cont-link {}
+
+.studio {}
+
+.portfolio {}
+
+.contacts {}
+
+.header-adds {}
+
+.address {
+     font-style: normal;
+}
+
+.address .link,
+.address .link {
+     font-style: normal;
+     text-decoration: none;
+     color: var(--color-ads-txt);
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+}
+
+.address .link:hover,
+.address .link:hover,
+.address .link:focus,
+.address .link:focus {
+     font-style: normal;
+     text-decoration: none;
+     color: var(--color-bck-btn-act);
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+}
+
+.header-email {}
+
+.header-tel {}
+
+
+/* First Section Style */
+
+.same-background {
+     background-color: var(--color-tit-back);
+}
+
+.section-one {
+     color: var(--color-fnt-btn-act);
+     font-style: normal;
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 1.07;
+     letter-spacing: 0.02em;
+     text-align: center;
+}
+
+.btn-main {
+     color: var(--color-fnt-btn-act);
+     background-color: var(--color-font-logo);
+     font-family: var(--font-famyli);
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+
+}
+
+.btn-main:hover,
+.btn-main:focus {
+     color: var(--color-bck-btn-act);
+     background-color: var(--color-bck-btn-act);
+     font-family: var(--font-famyli);
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+     cursor: pointer;
+
+}
+
+/* button[type="button"] {
+     color: var(--color-fnt-btn-act);
+     background-color: var(--color-font-logo);
+} */
+
+button {
+     cursor: pointer;
+}
+
+
+/* second section Style */
+
+/* h123 style */
+.heading {
+     color: var(--color-tit-back);
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+}
+
+.headline {
+     font-weight: 700;
+     font-size: 36px;
+     letter-spacing: 0.02em;
+     text-transform: capitalize;
+     line-height: 1.11;
+     text-align: center;
+     color: var(--color-tit-back);
+
+}
+
+/* description and text style  */
+.text,
+.desc {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: 0.02em;
+     color: var(--color-ads-txt);
+}
+
+/* fourth section style */
+
+.section-four {
+     background-color: var(--color-bck-btn);
+}
+
+.headline-four {
+     font-size: 36px;
+     line-height: 1.11;
+     text-align: center;
+     color: var(--color-tit-back);
+     letter-spacing: 0.02em;
+     text-transform: capitalize;
+}
+
+.section-four-list {
+     background-color: var(--color-fnt-btn-act);
+}
+
+/* footer style */
+.same-background .footer-logo {
+     color: #F4F4FD;
+     font-family: var(--foot-family);
+     font-style: normal;
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     text-decoration: none;
+     color: var(--color-font-logo);
+}
+
+.same-background .text-footer {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: 0.02em;
+     color: var(--color-footer-txt);
+}
+
+.footer-logo-std {
+     color: var(--color-bck-btn);
+
+}
+
+
+
+/* Button Portfolio Style */
+
+ul button[type="button"].btn {
+     font-family: inherit;
+     color: var(--color-font-logo);
+     background-color: var(--color-bck-btn);
+     cursor: pointer;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+}
+
+ul button[type="button"].btn:hover,
+ul button[type="button"].btn:focus,
+ul button[type="button"].btn:active {
+     color: var(--color-fnt-btn-act);
+     background-color: var(--color-bck-btn-act);
+}
+
+.list-title-port {
+     color: var(--color-tit-back);
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+}
+
+.list-text-port {
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: var(--color-ads-txt);
+
+}
