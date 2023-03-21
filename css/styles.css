@@ -307,8 +307,7 @@ button {
 
 .container-three .list {
      display: flex;
-     justify-content: space-around;
-
+     justify-content: space-between;
 }
 
 .container-three>h2 {
