@@ -75,7 +75,7 @@ button {
      cursor: pointer;
 }
 
-header{
+header {
      border-bottom: 1px solid var(--color-footer-txt);
 }
 
@@ -505,7 +505,6 @@ ul button[type="button"].btn:active {
      padding-bottom: 32px;
      padding-top: 32px;
      padding-left: 16px;
-     border-bottom: 1px solid var(--color-footer-txt);
-     border-right: 1px solid var(--color-footer-txt);
-     border-left: 1px solid var(--color-footer-txt);
+     border-top: none;
+     border: 1px solid var(--color-footer-txt);
 }
