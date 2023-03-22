@@ -62,10 +62,18 @@ body {
      text-decoration: none;
 }
 
-.section:not(:last-child) {
-     margin-bottom: 120px;
+
+section {
+     outline: 2px dashed tomato;
 }
 
+img {
+     display: block;
+}
+
+button {
+     cursor: pointer;
+}
 
 /* -----------------------------------------Header Style---------------------------------- */
 
@@ -195,9 +203,6 @@ body {
      background-color: var(--color-tit-back);
 }
 
-.first-section {
-     margin-bottom: 120px;
-}
 
 .section-one {
      color: var(--color-fnt-btn-act);
@@ -230,7 +235,6 @@ body {
 
 .btn-main:hover,
 .btn-main:focus {
-     color: var(--color-bck-btn-act);
      background-color: var(--color-bck-btn-act);
      font-family: var(--font-famyli);
      font-weight: 500;
@@ -246,16 +250,20 @@ body {
      background-color: var(--color-font-logo);
 } */
 
-button {
-     cursor: pointer;
-}
+
 
 
 /* ----------------------------second section Style------------------------- */
 
+.section-two {
+     padding-top: 120px;
+     padding-bottom: 120px;
+}
+
 .list-item-two>h3 {
      margin-bottom: 8px;
 }
+
 
 .list-item-two {
      max-width: 264px;
@@ -301,13 +309,18 @@ button {
      color: var(--color-ads-txt);
 }
 
+.section-three {
+     padding-bottom: 120px;
+}
+
 .img-three {
      display: block;
 }
 
 .container-three .list {
      display: flex;
-     justify-content: space-between;
+     gap: 24px;
+     /* justify-content: space-between; */
 }
 
 .container-three>h2 {
@@ -319,6 +332,13 @@ button {
 
 .section-four {
      background-color: var(--color-bck-btn);
+     padding-bottom: 120px;
+     padding-top: 120px;
+}
+
+.list-team {
+     display: flex;
+     gap: 24px;
 }
 
 .headline-four {
@@ -328,17 +348,26 @@ button {
      color: var(--color-tit-back);
      letter-spacing: 0.02em;
      text-transform: capitalize;
+
+     margin-bottom: 72px;
 }
 
 .section-four-list {
      background-color: var(--color-fnt-btn-act);
 }
 
+div.four-text {
+     padding-bottom: 32px;
+     padding-top: 32px;
+}
+
 
 
 /*------------------------------ footer style -------------------------*/
 
-.container-footer {
+.container-footer {}
+
+footer {
      padding-top: 100px;
      padding-bottom: 100px;
 }
@@ -376,9 +405,30 @@ button {
 
 
 
-/* Button Portfolio Style */
+/*------------------------------------ Button Portfolio Style----------------------------- */
+
+
+.list-port {
+     justify-content: center;
+}
+
+
+.list-port {
+     display: flex;
+
+     padding-bottom: 72px;
+     padding-top: 96px;
+}
+
+
+.list-port li:not(:last-child) {
+     padding-right: 24px;
+}
+
 
 ul button[type="button"].btn {
+
+
      font-family: inherit;
      color: var(--color-font-logo);
      background-color: var(--color-bck-btn);
@@ -387,6 +437,17 @@ ul button[type="button"].btn {
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.04em;
+
+     padding-bottom: 12px;
+     padding-top: 12px;
+     padding-right: 24px;
+     padding-left: 24px;
+
+
+
+     border: 1px solid #E7E9FC;
+     border-radius: 4px;
+
 }
 
 ul button[type="button"].btn:hover,
@@ -410,4 +471,45 @@ ul button[type="button"].btn:active {
      letter-spacing: 0.02em;
      color: var(--color-ads-txt);
 
+}
+
+
+/*-----------------style for list-produckt---and for main in portfolio------------------*/
+
+.section-port {
+     padding-bottom: 120px;
+}
+
+
+
+.list-produckt {
+     display: flex;
+     flex-wrap: wrap;
+     margin-right: 24px;
+     margin-bottom: 48px;
+}
+
+.container-port {
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+.list-produckt li:nth-child(3n) {
+     margin-right: 0;
+}
+
+.list-produckt li:nth-last-child(-n + 3){
+     margin-bottom: 0;
+}
+
+
+
+.list-produckt li {
+     border: 1px solid var(--color-footer-txt);
+}
+
+.desc-port {
+     margin-bottom: 32px;
+     margin-top: 32px;
 }

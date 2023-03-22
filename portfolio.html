@@ -6,11 +6,7 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-          integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-     <link rel="stylesheet" href="./css/styles.css">
 
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,157 +17,188 @@
      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
 
      <title>Portfolio</title>
+
+
+     <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+          integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
      <header class="header-abov">
+          <div class="container container-nav">
 
-          <nav class="header-navigation">
+               <nav class="header-navigation">
 
-               <a href="./index.html" class="header-logo link">Web<span class="header-logo-std">Studio</span></a>
+                    <a href="./index.html" class="header-logo link">Web<span class="header-logo-std">Studio</span></a>
 
-               <ul class="header-container list">
-                    <li>
-                         <a href="./index.html" class="link">Studio</a>
-                    </li>
+                    <ul class="header-container list">
+                         <li>
+                              <a href="./index.html" class="link">Studio</a>
+                         </li>
 
-                    <li>
-                         <a href="./portfolio.html" class="link">Portfolio</a>
-                    </li>
+                         <li>
+                              <a href="./portfolio.html" class="link">Portfolio</a>
+                         </li>
 
-                    <li>
-                         <a href="" class="link">Contacts</a>
-                    </li>
-               </ul>
-          </nav>
+                         <li>
+                              <a href="" class="link">Contacts</a>
+                         </li>
+                    </ul>
+               </nav>
 
-          <address class="header-adds address">
-               <ul class="list">
-                    <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+               <address class="header-adds address">
+                    <ul class="list list-adds">
+                         <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
 
-                    <li><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
-               </ul>
-          </address>
-
+                         <li><a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a></li>
+                    </ul>
+               </address>
+          </div>
      </header>
 
 
 
      <main>
           <!--  -->
-          <section>
-               <h1 hidden class="selection portfolio-section">Our products</h1>
-               <ul class="list">
+          <section class="section-port">
+               <div class="container">
+                    <h1 hidden class="selection portfolio-section">Our products</h1>
+                    <ul class="list list-port">
 
-                    <li>
-                         <button type="button" class="btn">All</button>
-                    </li>
+                         <li>
+                              <button type="button" class="btn">All</button>
+                         </li>
 
-                    <li>
-                         <button type="button" class="btn">Web Site</button>
-                    </li>
+                         <li>
+                              <button type="button" class="btn">Web Site</button>
+                         </li>
 
-                    <li>
-                         <button type="button" class="btn">App</button>
-                    </li>
+                         <li>
+                              <button type="button" class="btn">App</button>
+                         </li>
 
-                    <li>
-                         <button type="button" class="btn">Design</button>
-                    </li>
+                         <li>
+                              <button type="button" class="btn">Design</button>
+                         </li>
 
-                    <li>
-                         <button type="button" class="btn">Marketing</button>
-                    </li>
-               </ul>
-
-
-               <ul class="list">
-                    <li>
-                         <a href="" class="link">
-                              <img src="./images/website.jpg" alt="website" width="360" height="300">
-                              <h2 class="list-title-port">Banking App Interface Concept</h2>
-                              <p class="list-text-port">App</p>
-                         </a>
-                    </li>
-
-                    <li>
-                         <a href="" class="link">
-                              <img src="./images/qr.jpg" alt="phone with qr-code" width="360" height="300">
-                              <h2 class="list-title-port">Cashless Payment</h2>
-                              <p class="list-text-port">Marketing</p>
-                         </a>
-                    </li>
-
-                    <li>
-                         <a href="" class="link">
-                              <img src="./images/mackbook.jpg" alt="mackbook" width="360" height="300">
-                              <h2 class="list-title-port">Meditation App</h2>
-                              <p class="list-text-port">App</p>
-                         </a>
-                    </li>
-
-                    <li>
-                         <a href="" class="link">
-                              <img src="./images/carinner.jpg" alt="car's salon" width="360" height="300">
-                              <h2 class="list-title-port">Taxi Service</h2>
-                              <p class="list-text-port">Marketing</p>
-                         </a>
-                    </li>
-
-                    <li>
-                         <a href="" class="link">
-                              <img src="./images/smartphone.jpg" alt="smartphone" width="360" height="300">
-                              <h2 class="list-title-port">Screen Illustrations</h2>
-                              <p class="list-text-port">Design</p>
-                         </a>
-                    </li>
-
-                    <li>
-                         <a href="" class="link">
-                              <img src="./images/img.jpg" alt="woman with smartphone" width="360" height="300">
-                              <h2 class="list-title-port">Online Courses</h2>
-                              <p class="list-text-port">Marketing</p>
-                         </a>
-                    </li>
+                         <li>
+                              <button type="button" class="btn">Marketing</button>
+                         </li>
+                    </ul>
 
 
-                    <li>
-                         <a href="" class="link">
-                              <img src="./images/website-2.jpg" alt="second website" width="360" height="300">
-                              <h2 class="list-title-port">Instagram Stories Concept</h2>
-                              <p class="list-text-port">Design</p>
-                         </a>
-                    </li>
+                    <ul class="list list-produckt">
+                         <li>
+                              <a href="" class="link">
+                                   <img src="./images/website.jpg" alt="website" width="360" height="300">
+                                   <div class="desc-port">
+                                        <h2 class="list-title-port">Banking App Interface Concept</h2>
+                                        <p class="list-text-port">App</p>
+                                   </div>
+                              </a>
+                         </li>
 
-                    <li>
-                         <a href="" class="link">
-                              <img src="./images/kaufrau.jpg" alt="woman with bag of fruits" width="360" height="300">
-                              <h2 class="list-title-port">Organic Food</h2>
-                              <p class="list-text-port">Web Site</p>
-                         </a>
-                    </li>
+                         <li>
+                              <a href="" class="link">
+                                   <img src="./images/qr.jpg" alt="phone with qr-code" width="360" height="300">
+                                   <div class="desc-port">
+                                        <h2 class="list-title-port">Cashless Payment</h2>
+                                        <p class="list-text-port">Marketing</p>
+                                   </div>
+                              </a>
+                         </li>
 
-                    <li>
-                         <a href="" class="link">
-                              <img src="./images/coffe.jpg" alt="cuppa" width="360" height="300">
-                              <h2 class="list-title-port">Fresh Coffee</h2>
-                              <p class="list-text-port">Web Site</p>
-                         </a>
+                         <li>
+                              <a href="" class="link">
+                                   <img src="./images/mackbook.jpg" alt="mackbook" width="360" height="300">
+                                   <div class="desc-port">
+                                        <h2 class="list-title-port">Meditation App</h2>
+                                        <p class="list-text-port">App</p>
+                                   </div>
+                              </a>
+                         </li>
 
-                    </li>
-               </ul>
+                         <li>
+                              <a href="" class="link">
+                                   <img src="./images/carinner.jpg" alt="car's salon" width="360" height="300">
+                                   <div class="desc-port">
+                                        <h2 class="list-title-port">Taxi Service</h2>
+                                        <p class="list-text-port">Marketing</p>
+                                   </div>
+                              </a>
+                         </li>
+
+                         <li>
+                              <a href="" class="link">
+                                   <img src="./images/smartphone.jpg" alt="smartphone" width="360" height="300">
+                                   <div class="desc-port">
+                                        <h2 class="list-title-port">Screen Illustrations</h2>
+                                        <p class="list-text-port">Design</p>
+                                   </div>
+                              </a>
+                         </li>
+
+                         <li>
+                              <a href="" class="link">
+                                   <img src="./images/img.jpg" alt="woman with smartphone" width="360" height="300">
+                                   <div class="desc-port">
+                                        <h2 class="list-title-port">Online Courses</h2>
+                                        <p class="list-text-port">Marketing</p>
+                                   </div>
+                              </a>
+                         </li>
+
+
+                         <li>
+                              <a href="" class="link">
+                                   <img src="./images/website-2.jpg" alt="second website" width="360" height="300">
+                                   <div class="desc-port">
+                                        <h2 class="list-title-port">Instagram Stories Concept</h2>
+                                        <p class="list-text-port">Design</p>
+                                   </div>
+                              </a>
+                         </li>
+
+                         <li>
+                              <a href="" class="link">
+                                   <img src="./images/kaufrau.jpg" alt="woman with bag of fruits" width="360" height="300">
+                                   <div class="desc-port">
+                                        <h2 class="list-title-port">Organic Food</h2>
+                                        <p class="list-text-port">Web Site</p>
+                                   </div>
+                              </a>
+                         </li>
+
+                         <li>
+                              <a href="" class="link">
+                                   <img src="./images/coffe.jpg" alt="cuppa" width="360" height="300">
+                                   <div class="desc-port">
+                                        <h2 class="list-title-port">Fresh Coffee</h2>
+                                        <p class="list-text-port">Web Site</p>
+                                   </div>
+                              </a>
+                         </li>
+                    </ul>
+               </div>
           </section>
      </main>
 
      <footer class="same-background">
-          <a href="./index.html" class="footer-logo link">Web<span class="footer-logo-std">Studio</span></a>
+          <div class="container container-footer">
+               <a href="./index.html" class="footer-logo link">Web<span class="footer-logo-std">Studio</span></a>
 
-          <p class="text-footer">
-               Increase the flow of customers and sales for your business with digital marketing &
-               growth solutions.
-          </p>
+               <p class="text-footer">
+                    Increase the flow of customers and sales for your business with digital marketing &
+                    growth solutions.
+               </p>
+          </div>
      </footer>
+
 </body>
 
 </html>
