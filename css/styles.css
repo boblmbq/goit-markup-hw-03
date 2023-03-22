@@ -39,7 +39,7 @@ ul {
      padding-right: 15px;
      margin-left: auto;
      margin-right: auto;
-     outline: 2px solid black;
+     /* outline: 2px solid black; */
 }
 
 
@@ -64,7 +64,7 @@ body {
 
 
 section {
-     outline: 2px dashed tomato;
+     /* outline: 2px dashed tomato; */
 }
 
 img {
@@ -73,6 +73,10 @@ img {
 
 button {
      cursor: pointer;
+}
+
+header{
+     border-bottom: 1px solid var(--color-footer-txt);
 }
 
 /* -----------------------------------------Header Style---------------------------------- */
@@ -354,12 +358,21 @@ button {
 
 .section-four-list {
      background-color: var(--color-fnt-btn-act);
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+     border-radius: 0px 0px 4px 4px;
 }
 
 div.four-text {
+     display: flex;
      padding-bottom: 32px;
      padding-top: 32px;
+     flex-direction: column;
+     align-items: center;
 }
+
+
+
+
 
 
 
@@ -415,14 +428,12 @@ footer {
 
 .list-port {
      display: flex;
-
-     padding-bottom: 72px;
-     padding-top: 96px;
+     margin-bottom: 72px;
 }
 
 
 .list-port li:not(:last-child) {
-     padding-right: 24px;
+     margin-right: 24px;
 }
 
 
@@ -476,7 +487,9 @@ ul button[type="button"].btn:active {
 
 /*-----------------style for list-produckt---and for main in portfolio------------------*/
 
+
 .section-port {
+     padding-top: 96px;
      padding-bottom: 120px;
 }
 
@@ -485,31 +498,11 @@ ul button[type="button"].btn:active {
 .list-produckt {
      display: flex;
      flex-wrap: wrap;
-     margin-right: 24px;
-     margin-bottom: 48px;
-}
-
-.container-port {
-     margin-left: auto;
-     margin-right: auto;
-}
-
-
-.list-produckt li:nth-child(3n) {
-     margin-right: 0;
-}
-
-.list-produckt li:nth-last-child(-n + 3){
-     margin-bottom: 0;
-}
-
-
-
-.list-produckt li {
-     border: 1px solid var(--color-footer-txt);
+     gap: 48px 24px;
 }
 
 .desc-port {
-     margin-bottom: 32px;
-     margin-top: 32px;
+     padding-bottom: 32px;
+     padding-top: 32px;
+     border: 1px solid var(--color-footer-txt);
 }
