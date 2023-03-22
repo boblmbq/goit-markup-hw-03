@@ -201,6 +201,7 @@ header {
      padding-bottom: 188px;
      padding-top: 188px;
      text-align: center;
+
 }
 
 .same-background {
@@ -218,7 +219,10 @@ header {
      text-align: center;
      margin-bottom: 48px;
 
-     /* max-width: 496px; */
+     margin-right: auto;
+     margin-left: auto;
+
+     max-width: 496px;
 }
 
 .btn-main {
