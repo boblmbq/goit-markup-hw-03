@@ -344,6 +344,10 @@ header {
      padding-top: 120px;
 }
 
+.heading-four{
+     margin-bottom: 8px;
+}
+
 .list-team {
      display: flex;
      gap: 24px;
@@ -478,6 +482,8 @@ ul button[type="button"].btn:active {
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
+
+     margin-bottom: 8px;
 }
 
 .list-text-port {
